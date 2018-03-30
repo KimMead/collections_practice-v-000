@@ -47,7 +47,6 @@ end
 
 def add_s(array)
   array.each do |item|
-    puts "#{item}s"
+    item == items
   end
-  array
 end
