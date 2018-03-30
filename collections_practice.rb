@@ -20,7 +20,7 @@ end
 # wants = ["blake", "scott", "ashley"]
 # gets  = ["ashley", "blake", "scott"]
 def swap_elements(names)
-  names.sort do |b, c|
-  c <=> b
+  names.sort do |a, b, c|
+  a[0], b[1], c[2] = a[0], c[2], b[1]
 end
 end
