@@ -43,11 +43,10 @@ def sum_array(array)
     sum+=num
 end
 sum
-end 
+end
 
-def add_s 
+def add_s
   array.each do |item|
     puts "#{item}s"
-  end 
-end 
-  
+  end
+end
