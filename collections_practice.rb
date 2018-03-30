@@ -15,3 +15,9 @@ def sort_array_char_count(char)
     a.length <=> b.length
   end
 end
+
+def swap_elements(names)
+  names.sort do |a, b|
+    b <=> a
+  end 
+end 
