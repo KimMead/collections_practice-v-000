@@ -21,6 +21,6 @@ end
 # gets  = ["ashley", "blake", "scott"]
 def swap_elements(names)
   names.sort do |b, c|
-  c > b
+  c <=> b
 end
 end
