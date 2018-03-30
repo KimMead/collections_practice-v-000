@@ -21,7 +21,7 @@ def swap_elements(a,b,c)
   return a,b,c
 end
 
-  
-    
+
+
 
 end
