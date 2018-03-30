@@ -16,12 +16,12 @@ def sort_array_char_count(char)
   end
 end
 
-def swap_elements(names)
-  name1 = [0]
-  name2 = [1]
-  name3 = [3]
-  names.sort do |names|
-    name1 > name3 > name2
+def swap_elements(a,b,c)
+  a,b,c = a,c,b
+  return a,b,c
 end
-names
+
+  
+    
+
 end
