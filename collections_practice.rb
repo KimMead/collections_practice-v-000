@@ -20,3 +20,4 @@ def swap_elements(names)
   names.sort do |a, b, c|
     c > b
 end
+end 
