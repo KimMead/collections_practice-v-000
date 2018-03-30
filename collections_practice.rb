@@ -46,7 +46,7 @@ sum
 end
 
 def add_s(array)
-  array.each do |item|
+  array.collect do |item|
     puts item + "s"
   end
   array
