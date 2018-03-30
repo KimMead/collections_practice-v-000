@@ -18,6 +18,6 @@ end
 
 def swap_elements(names)
   names.sort do |a, b, c|
-  a, c, b <=> a, b, c
+  b <=> c
 end
 end
