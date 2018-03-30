@@ -16,8 +16,11 @@ def sort_array_char_count(char)
   end
 end
 
+# names = ["blake", "ashley", "scott"]
+# wants = ["blake", "scott", "ashley"]
+# gets  = ["ashley", "blake", "scott"]
 def swap_elements(names)
   names.sort do |b, c|
-  b <=> c
+  b > c
 end
 end
